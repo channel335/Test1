@@ -25,7 +25,7 @@ public class Student {
         this(StudentID3, name3, surname3, course3, 0, 0, 0);
     }
 
-    Student() {
+    public Student() {
         }
 }
 

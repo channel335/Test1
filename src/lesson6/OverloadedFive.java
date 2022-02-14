@@ -37,7 +37,7 @@ class OverloadedFiveTest {
 
     public static void main(String[] args) {
         OverloadedFive OF5 = new OverloadedFive();
-        System.out.println(OF5.summa(1, 2, 0));
+        System.out.println(OF5.summa(1, 2, 99));
     }
 
 }

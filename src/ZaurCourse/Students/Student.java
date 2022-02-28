@@ -86,11 +86,11 @@ class StudentTest {
         sTest.SredArifm(st3);
 
 
-        TestTest1.testtest ttt1 = new TestTest1.testtest("RealMe");
-        System.out.println(ttt1.markaTelephona);
-
-        TestTest1.testtest ttt2 = new TestTest1.testtest(888.8);
-        System.out.println(ttt2.priceTelephone);
+//        TestTest1.testtest ttt1 = new TestTest1.testtest("RealMe");
+//        System.out.println(ttt1.markaTelephona);
+//
+//        TestTest1.testtest ttt2 = new TestTest1.testtest(888.8);
+//        System.out.println(ttt2.priceTelephone);
     }
 }
 

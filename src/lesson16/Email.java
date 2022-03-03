@@ -2,29 +2,22 @@ package lesson16;
 
 public class Email {
 
-    public static void ThatEmail() {
-        String s1 = "ya@yahoo.com; on@mail.ru;  ona@gmail.com;";
-        char c1;
+    public void email(String s) {
+        int a = 0; //позиция символа @
+        int b = 0; //позиция символа .
+        int c = 0; //позиция символа ;
 
-        for (int i = 0; i < s1.length(); i++) {
-            c1 = s1.charAt(i);
-            if (c1 == ';') {
-                System.out.print(c1);
-                System.out.println();
-                continue;
-            }
-            System.out.print(c1);
+        while (c < s.length() - 1) {
+
+            a = s.indexOf('@', c);
+            b = s.indexOf('.', c);
+            c = s.indexOf(';', c+1);
+            System.out.println(s.substring(a + 1, b));
         }
-
-//        if
-    }
 }
 
-
-
-class EmailTest {
-
-    public static void main(String[] args) {
-        Email.ThatEmail();
+    public static void main(String[] args){
+    Email em = new Email();
+    em.email("ya@yahoo.com; on@mail.ru;  ona@gmail.ru;");
     }
 }

@@ -9,7 +9,8 @@ public class Students {
     Students (String name, int course, double grade) {
         this.name = name;
         this.course = course;
-        this.grade = grade;}
+        this.grade = grade;
+    }
 
     public static void swap(Students st1, Students st2) {
         Students st3 = st1;
@@ -23,7 +24,7 @@ public class Students {
 //        System.out.println(st1.name);
 //        System.out.println(st2.name);
 
-       StudentTest.Sravnenie1(st1,st2);
+       StudentTest.Sravnenie1(st1, st2);
        StudentTest.SravnenieVse(st1,st2);
         }
     }

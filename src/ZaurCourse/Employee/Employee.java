@@ -3,9 +3,9 @@ package ZaurCourse.Employee;
 public class Employee {
 
     int id;
-    public String surname;
+    String surname;
     int age;
-    private double salary;
+    double salary;
     String department;
 
     Employee(int id2, String surname2, int age2, double salary2, String department2) {
@@ -14,16 +14,18 @@ public class Employee {
         age = age2;
         salary = salary2;
         department = department2;
-
     }
-
-//     public Employee(double salary3) {
-//        this(0, null, 0, salary3, null);
-
-//    }
 
     Employee (){
     }
+
+////
+//     Employee(int id3, String surname3, int age3, double salary3, String department3) {
+//        this(int id3, String surname3, int age3, double salary3, null);
+////
+//    }
+//
+
 
 
 
@@ -48,7 +50,7 @@ public class Employee {
 class EmployeeTest {
 
     public static void main(String[] args) {
-        Employee emp1 = new Employee(1, "Ivanov", 34, 121, "IT");
+        Employee emp1 = new Employee(1, "Ivanov", 34, 121.3, "IT");
         Employee emp2 = new Employee(2, "Petrov", 31, 180.5, "Sales");
 
         Employee emp3 = new Employee(0, null, 0, 155.5, null);
